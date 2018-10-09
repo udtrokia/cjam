@@ -7,8 +7,8 @@ version = "0.1.2"
 authors = ["mercury <udtrokia@gmail.com>"]
 keywords = ["Cargo", "crate", "relative", "path"]
 readme = "./README.md"
-documentation = ""
 repository = "https://github.com/udtrokia/cjam"
+documentation = "https://docs.rs/cjam"
 description = "Cargo Jam —— Resolve the relative paths of cargo packages"
 
 [dependencies]
