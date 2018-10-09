@@ -9,10 +9,14 @@ fn main() {
     // if Cargo.toml here
     let mut dir = Toml::root();
     dir.pop();
-    let pathes = Toml::pathes(dir);
+    let paths = Toml::pathes(dir);
 
+    if paths.len() == 0 {
+        println!("No crates found.");
+        return;
+    }
     println!("Alias Pathes:\n ");
-    for p in pathes {
+    for p in paths {
         let t = Toml::detail(p);
         println!("{} —— {:?}", t.name, t.alias);
     }

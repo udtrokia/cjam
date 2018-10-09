@@ -58,7 +58,6 @@ impl Toml {
 
         let mut content = String::new();
         let mut file = File::open(path.as_path()).unwrap();
-        //println!("{:?}", &file);
         file.read_to_string(&mut content).unwrap();
 
         let mut re = Regex::new(r#"name = "(.*)""#).unwrap();

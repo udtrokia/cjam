@@ -3,10 +3,13 @@ cargo-features = ["edition"]
 edition = "2018"
 name = "cjam"
 license = "GPL-3.0-or-later"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["mercury <udtrokia@gmail.com>"]
 keywords = ["Cargo", "crate", "relative", "path"]
-description = "Cargo Jam —— Resolve the relative pathes of cargo packages"
+readme = "./README"
+documentation = ""
+repository = "https://github.com/udtrokia/cjam"
+description = "Cargo Jam —— Resolve the relative paths of cargo packages"
 
 [dependencies]
 regex = "1"
