@@ -3,7 +3,7 @@
 // 
 // Copyright @ udtrokia
 //
-use jam::Toml;
+use cjam::Toml;
 
 fn main() {
     // if Cargo.toml here
