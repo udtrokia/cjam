@@ -5,7 +5,7 @@ name = "cjam"
 license = "GPL-v3.0"
 version = "0.1.0"
 authors = ["mercury <udtrokia@gmail.com>"]
-keywords = ["Cargo", "Crate", "Relative Path"]
+keywords = ["Cargo", "crate", "relative", "path"]
 description = "Cargo Jam —— Resolve the relative pathes of cargo packages"
 
 [dependencies]
