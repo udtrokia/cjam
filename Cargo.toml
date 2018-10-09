@@ -1,9 +1,10 @@
 cargo-features = ["edition"]
 [package]
-name = "jam"
+name = "cjam"
 version = "0.1.0"
 authors = ["mercury <udtrokia@gmail.com>"]
 edition = "2018"
+description = "Cargo Jam —— Resolve the relative pathes of cargo packages"
 
 [dependencies]
 regex = "1"
